@@ -4,11 +4,11 @@ var x = document.getElementById("textgiris").value;
 var z = document.getElementById("keygiris").value;
 
 if(x == ""){
-    alert("User input cannot be left blank!")
+    alert("Metin girdisi boş bırakılamaz")
     return false;
 }
 if(z == ""){
-    alert("User input cannot be left blank!")
+    alert("Anahtar bölümü boş kalamaz")
     return false;
 }
 
@@ -90,7 +90,7 @@ function copyToclipboard(){
   navigator.clipboard.writeText(copyText.value);
   
   // Alert the copied text
-  alert("Encrypted text was copied!");
+  alert("Şifrelenmiş metin kopyalandı!");
 }
 
 function copyToclipboardd(){
@@ -124,11 +124,11 @@ var x = document.getElementById("encrygiris").value;
 var z = document.getElementById("ekeygiris").value;
 
 if(x == ""){
-    alert("Girdi boş bırakılamaz!")
+    alert("Metin girdisi boş bırakılamaz!")
     return false;
 }
 if(z == ""){
-    alert("Girdi boş bırakılamaz!")
+    alert("Anahtar girdisi boş bırakılamaz!")
     return false;
 }
 
